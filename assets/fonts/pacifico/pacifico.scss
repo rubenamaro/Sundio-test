@@ -1,0 +1,43 @@
+// Pacifico
+// --------------------------------------------------
+
+$path-fonts: '' !default;
+
+// Import the font file as both regular & bold weights
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+
+  src: url('#{$path-fonts}pacifico.eot');
+  src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}pacifico.woff') format('woff'),
+  url('#{$path-fonts}pacifico.ttf')  format('truetype'),
+  url('#{$path-fonts}pacifico.svg#pacifico') format('svg');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 700;
+
+  src: url('#{$path-fonts}pacifico.eot');
+  src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}pacifico.woff') format('woff'),
+  url('#{$path-fonts}pacifico.ttf')  format('truetype'),
+  url('#{$path-fonts}pacifico.svg#pacifico') format('svg');
+}
+
+// Set the font variable
+// --------------------------------------------------
+$font-pacifico: 'Pacifico', Verdana, Arial, sans-serif !default;
+
+// Set the font selector
+// --------------------------------------------------
+.font-pacifico {
+  font-family: $font-pacifico;
+  // Better Font Rendering
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

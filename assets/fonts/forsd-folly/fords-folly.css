@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fords-folly.eot');
+  src: url('fords-folly.eot?#iefix') format('embedded-opentype'), url('fords-folly.woff2') format('woff2'), url('fords-folly.woff') format('woff'), url('fords-folly.ttf') format('truetype'), url('fords-folly.svg#fordsfolly') format('svg'); }
+
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fords-folly.eot');
+  src: url('fords-folly.eot?#iefix') format('embedded-opentype'), url('fords-folly.woff2') format('woff2'), url('fords-folly.woff') format('woff'), url('fords-folly.ttf') format('truetype'), url('fords-folly.svg#fords-folly') format('svg'); }
+
+.font-fords-folly {
+  font-family: 'Fords Folly', Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

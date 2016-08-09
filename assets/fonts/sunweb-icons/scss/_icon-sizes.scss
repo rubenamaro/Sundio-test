@@ -1,0 +1,27 @@
+// Icon Sizes
+// --------------------------------------------------
+
+$icon-size-xs: 50% !default;
+$icon-size-sm: 75% !default;
+$icon-size-lg: 150% !default;
+$icon-size-xl: 200% !default;
+
+.icon-xs,
+%icon-xs {
+  font-size: $icon-size-xs;
+  }
+
+.icon-sm,
+%icon-sm {
+  font-size: $icon-size-sm;
+  }
+
+.icon-lg,
+%icon-lg {
+  font-size: $icon-size-lg;
+  }
+
+.icon-xl,
+%icon-xl {
+  font-size: $icon-size-xl;
+  }

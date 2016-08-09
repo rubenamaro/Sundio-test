@@ -1,0 +1,45 @@
+// Ford's Folly
+// --------------------------------------------------
+
+$path-fonts: '' !default;
+
+// Import the font file as both regular & bold weights
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+
+  src: url('#{$path-fonts}fords-folly.eot');
+  src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}fords-folly.woff2') format('woff2'),
+  url('#{$path-fonts}fords-folly.woff') format('woff'),
+  url('#{$path-fonts}fords-folly.ttf')  format('truetype'),
+  url('#{$path-fonts}fords-folly.svg#fordsfolly') format('svg');
+}
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+
+  src: url('#{$path-fonts}fords-folly.eot');
+  src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}fords-folly.woff2') format('woff2'),
+  url('#{$path-fonts}fords-folly.woff') format('woff'),
+  url('#{$path-fonts}fords-folly.ttf')  format('truetype'),
+  url('#{$path-fonts}fords-folly.svg#fords-folly') format('svg');
+}
+
+// Set the font variable
+// --------------------------------------------------
+$font-fords-folly: 'Fords Folly', Verdana, Arial, sans-serif !default;
+
+// Set the font selector
+// --------------------------------------------------
+.font-fords-folly {
+  font-family: $font-fords-folly;
+  // Better Font Rendering
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
