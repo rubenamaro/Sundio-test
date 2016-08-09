@@ -1,0 +1,24 @@
+{
+  "name": "sunweb-icons",
+  "version": "1.1.1",
+  "main": [
+    "css/sunweb-icons.css",
+    "scss/sunweb-icons.scss",
+    "fonts/sunweb-icons.eot",
+    "fonts/sunweb-icons.svg",
+    "fonts/sunweb-icons.ttf",
+    "fonts/sunweb-icons.woff"
+  ],
+  "ignore": [
+	"**/.*",
+	"node_modules",
+	"bower_components",
+	"src",
+    "tasks",
+    "demo",
+    "scss/*.md",
+	"Gruntfile.js",
+	"CONTRIBUTING.md",
+	"package.json"
+  ]
+}
