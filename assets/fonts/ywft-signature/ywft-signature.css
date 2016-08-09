@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'YWFT Signature';
+  font-style: normal;
+  font-weight: 400;
+  src: url('ywft-signature.eot');
+  src: url('ywft-signature.eot?#iefix') format('embedded-opentype'), url('ywft-signature.woff') format('woff'), url('ywft-signature.ttf') format('truetype'), url('ywft-signature.svg#ywft_signature_regular') format('svg'); }
+
+@font-face {
+  font-family: 'YWFT Signature';
+  font-style: normal;
+  font-weight: 700;
+  src: url('ywft-signature.eot');
+  src: url('ywft-signature.eot?#iefix') format('embedded-opentype'), url('ywft-signature.woff') format('woff'), url('ywft-signature.ttf') format('truetype'), url('ywft-signature.svg#ywft_signature_regular') format('svg'); }
+
+.font-ywft-signature {
+  font-family: 'YWFT Signature', Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

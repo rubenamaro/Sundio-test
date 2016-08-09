@@ -1,0 +1,26 @@
+{
+  "name": "sundio-test",
+  "version": "1.0.0",
+  "description": "Sundio frontend developer test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenamaro/Sundio-test.git"
+  },
+  "keywords": [
+    "HTML5",
+    "Javascript",
+    "CSS",
+    "Git"
+  ],
+  "author": "Rubén Amaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenamaro/Sundio-test/issues"
+  },
+  "homepage": "https://github.com/rubenamaro/Sundio-test#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "sass": "^0.5.0",
+  }
+}

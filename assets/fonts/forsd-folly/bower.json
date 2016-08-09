@@ -1,0 +1,19 @@
+{
+  "name": "font-fords-folly",
+  "version": "1.2.0",
+  "main": [
+    "fords-folly.eot",
+    "fords-folly.svg",
+    "fords-folly.ttf",
+    "fords-folly.woff",
+    "fords-folly.woff2",
+    "fords-folly.scss",
+    "fords-folly.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "demo",
+    "package.json",
+    "Gruntfile.js"
+  ]
+}
