@@ -1,0 +1,41 @@
+// YWFT Signature
+// --------------------------------------------------
+
+$path-fonts: '' !default;
+
+// Import the font file as both regular & bold weights
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'YWFT Signature';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$path-fonts}ywft-signature.eot');
+  src: url('#{$path-fonts}ywft-signature.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}ywft-signature.woff') format('woff'),
+  url('#{$path-fonts}ywft-signature.ttf')  format('truetype'),
+  url('#{$path-fonts}ywft-signature.svg#ywft_signature_regular') format('svg');
+}
+@font-face {
+  font-family: 'YWFT Signature';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$path-fonts}ywft-signature.eot');
+  src: url('#{$path-fonts}ywft-signature.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}ywft-signature.woff') format('woff'),
+  url('#{$path-fonts}ywft-signature.ttf')  format('truetype'),
+  url('#{$path-fonts}ywft-signature.svg#ywft_signature_regular') format('svg');
+}
+
+// Set the font variable
+// --------------------------------------------------
+$font-ywft-signature: 'YWFT Signature', Verdana, Arial, sans-serif !default;
+
+// Set the font selector
+// --------------------------------------------------
+.font-ywft-signature {
+  font-family: $font-ywft-signature;
+  // Better Font Rendering
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

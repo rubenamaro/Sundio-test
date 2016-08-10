@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('sansa-pro-bold.eot');
+  src: url('sansa-pro-bold.eot?#iefix') format('embedded-opentype'), url('sansa-pro-bold.woff') format('woff'), url('sansa-pro-bold.ttf') format('truetype'), url('sansa-pro-bold.svg#sansa-pro-bold') format('svg'); }
+
+.font-sansa-pro-bold {
+  font-family: 'Sansa Pro', Verdana, Arial, sans-serif;
+  font-weight: 700; }
