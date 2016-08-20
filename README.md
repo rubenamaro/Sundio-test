@@ -5,6 +5,7 @@
 
 ##  Actions
 1. Unzip project folder.
+
 ### First time
 2. Execute: 'npm install'
 3. Execute: 'npm install gem'	
