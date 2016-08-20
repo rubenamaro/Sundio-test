@@ -18,10 +18,11 @@ html, body {
   width: 100%;
   margin: auto;
   &:before {
-    border-bottom: red 3px solid;
-    content: " ";
-    position: absolute;
+	border-bottom: 3px solid red;
     bottom: 9px;
+    content: " ";
+    left: 0;
+    position: absolute;
     width: 100%;
   }
   &:after {
@@ -32,39 +33,34 @@ html, body {
     bottom: 2px;
     left: 0;
   }
-}
-
-.header-logos {
-  float: right;
-  margin: 1em;
-}
-
-.header-logos-logo {
-  margin: 0.25em;
-}
-
-.header-main-logo {
-  height: 80px;
-  float: left;
-  position: relative;
-  min-width: 250px;
-  margin: 0 0 0 2em;
-  img {
-    position: absolute;
-    left: 0;
-    bottom: -40px;
-    width: 250px;
-    height: 80px;
-    z-index: 1;
+  &-logos{
+	float: right;
+	margin: 1em;  
+	&-logo{
+		margin: 0.25em;
+	}
+  }
+  &-main-logo{
+	height: 80px;
+	float: left;
+	position: relative;
+	min-width: 250px;
+	margin: 0 0 0 2em;
+	img {
+		position: absolute;
+		left: 0;
+		bottom: -40px;
+		width: 250px;
+		height: 80px;
+		z-index: 1;
+	}
+  }
+  &-legend{
+    width: auto;
+	float: left;
+	color: #ec1b2d;
   }
 }
-
-.header-legend {
-  width: auto;
-  float: left;
-  color: #ec1b2d;
-}
-
 /* END HEADER */
 /* MAIN CONTENT*/
 
@@ -83,24 +79,22 @@ html, body {
   border-radius: 0 0 8px 8px;
 }
 
-.landing-picture {
+.landing {
   max-width: 1200px;
-}
-
-.landing-main-picture {
-  background: url('../img/heading-bg.jpg') #ffffff no-repeat left top;
-  height: 500px;
-  position: relative;
-}
-
-.landing-wave {
-  content: ' ';
-  background: url(../img/summer-wave.svg) no-repeat left bottom;
-  height: 150px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-size: 100%;
+  &-picture{
+	background: url('../img/heading-bg.jpg') #ffffff no-repeat left top;
+	height: 500px;
+	position: relative;
+  }
+  &-wave{
+    content: ' ';
+	background: url(../img/summer-wave.svg) no-repeat left bottom;
+	height: 150px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-size: 100%;
+  }
 }
 
 .main-content {
@@ -108,20 +102,18 @@ html, body {
   padding: 2em 0;
   max-width: 1200px;
   text-align: center;
+  &-title,&-description{
+	width: 80%;
+	margin: auto;  
+  }
+  &-title h4{
+    color: #ec1b2d;
+  }
+  &-button{
+	padding: 2em 0;  
+  }
 }
 
-.main-content-title, .main-content-description {
-  width: 80%;
-  margin: auto;
-}
-
-.main-content-title h4 {
-  color: #ec1b2d;
-}
-
-.main-content-button {
-  padding: 2em 0;
-}
 
 /* END MAIN CONTENT*/
 /* FOOTER */
@@ -131,51 +123,45 @@ html, body {
   background-color: #fbeb2e;
   position: absolute;
   margin: 6em 0 0 0;
-}
-
-.footer-container {
-  width: 90%;
-  margin: auto;
-}
-
-.footer-wave {
-  content: ' ';
-  background: url(../img/sunweb-wave.svg) no-repeat left bottom;
-  height: 39px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: -39px;
-  background-size: 100%;
-}
-
-.footer-legend {
-  color: #ec1b2d;
-  width: 100%;
-  text-align: center;
-  h2 {
-    margin: auto;
+  &-container{
+    width: 90%;
+	margin: auto;
   }
-}
-
-.footer-link {
-  font-size: 0.75em;
-  display: block;
-  margin: 0 0 1em 0;
-}
-
-.footer-main-content {
-  margin: 3em 0;
-}
-
-.footer-main-logo {
-  height: 40px;
-  width: 100%;
-  text-align: center;
-  img {
-    width: 125px;
-    height: 40px;
-    z-index: 1;
+  &-wave{
+    content: ' ';
+	background: url(../img/sunweb-wave.svg) no-repeat left bottom;
+	height: 39px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: -39px;
+	background-size: 100%;
+  }
+  &-legend{
+    color: #ec1b2d;
+	width: 100%;
+	text-align: center;
+	h2{
+		margin: auto;
+	}
+  }
+  &-link{
+    font-size: 0.75em;
+	display: block;
+	margin: 0 0 1em 0;
+  }
+  &-main-content{
+	margin: 3em 0;
+  }
+  &-main-logo{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	img {
+		width: 125px;
+		height: 40px;
+		z-index: 1;
+	}
   }
 }
 
@@ -204,12 +190,11 @@ html, body {
   border-radius: 8px;
   border-color: #FFFFFF;
   padding: 10px;
-}
-
-.button-red {
-  background-color: #ed1c2e;
-  color: #FFFFFF;
-  text-transform: uppercase;
+  &-red{
+    background-color: #ed1c2e;
+	color: #FFFFFF;
+	text-transform: uppercase;
+  }
 }
 
 /* END INPUTS*/
@@ -260,10 +245,11 @@ html, body {
     width: 80%;
     margin: auto;
   }
+
   .footer-main-logo {
     height: 40px;
     width: 25%;
-    margin: -1em 0 0 20%;
+    margin: -1em 0 0 10%;
     float: left;
     text-align: left;
   }
@@ -274,6 +260,7 @@ html, body {
     text-align: left;
     h2 {
       margin: auto;
+	  text-align: center;
     }
   }
 }
