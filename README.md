@@ -7,6 +7,9 @@
 1. Unzip project folder.
 
 ### First time
+
+All of this have to be made in project folder via command line
+
 2. Execute: 'npm install'
 3. Execute: 'npm install gem'	
 4. Execute: 'gem install sass'
