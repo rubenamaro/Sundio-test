@@ -21,14 +21,15 @@
   "homepage": "https://github.com/rubenamaro/Sundio-test#readme",
   "dependencies": {
     "compass": "^0.1.1",
+    "gem": "^2.1.5",
     "jquery": "^3.1.0",
     "node-sass": "^3.8.0",
-    "nvm": "0.0.4"
+    "proto": "^1.0.19"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
     "load-grunt-tasks": "^3.5.2",
-	"grunt-contrib-sass": "latest",
+    "grunt-contrib-sass": "latest",
     "grunt-postcss": "latest",
     "autoprefixer": "latest",
     "grunt-contrib-cssmin": "latest",
